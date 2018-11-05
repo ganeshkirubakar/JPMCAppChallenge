@@ -1,0 +1,6 @@
+<resources>
+    <string name="title">Album Name:</string>
+    <string name="ok">OK</string>
+    <string name="album_unavailable">No Albums Available</string>
+    <string name="message">Message</string>
+</resources>

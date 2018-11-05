@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:text="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textStyle="bold"
+        style="@style/AlbumTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/dialog_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/dialog_title"
+        android:background="@color/grey"/>
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        style="@style/AppTexStyle"
+        android:layout_centerHorizontal="true"
+        android:text="@string/message"
+        android:layout_below="@id/dialog_title_view"/>
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ok"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/dialog_message"
+        />
+</RelativeLayout>
